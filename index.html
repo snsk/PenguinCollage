@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>画像ソフト起動するのが面倒な人へ</title>
+	<script src="lib.js"> </script>
+</head>
+<body>
+<h1>ペンギンコラ生成</h1>
+それぞれセリフを入れて、下のボタンを押すと画像になります。右クリックから保存してください。
+※夜フクロウだとうまく表示できないみたいです
+<hr>
+
+左ぺんぎん<input id="leftPenguin" type="text" size="60" maxlength="28">28もじ</input><br>
+中ぺんぎん<input id="centerPenguin" type="text" size="60" maxlength="21">21もじ</input><br>
+右ぺんぎん<input id="rightPenguin" type="text" size="60" maxlength="40">40もじ</input><br>
+哀ぺんぎん<input id="poorPenguin" type="text" size="60" maxlength="18">18もじ</input>
+
+<hr>
+<canvas width="598px" height="468px" id="cvs"></canvas>
+<br><input id="genImage" type="button" value="これを画像にする"><br>
+<img id="exportedImage" src="">
+
+</body>
+</html>
